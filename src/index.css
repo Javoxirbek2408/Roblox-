@@ -149,10 +149,43 @@ body {
   /* width: 285px; */
 }
 
-.swiper-wrapper {
-  display: flex;
-  justify-content: space-between;
-  gap: 100px;
+.swiper {
+  height: auto;
+  margin-bottom: 24px;
 
 }
 
+.swiper-wrapper {
+  height: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+@media (min-width: 1024px) {
+  .swiper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    /* kerakli bo‘lsa */
+  }
+}
+
+.btnShadow {
+  box-shadow: -3px 1px 279px 16px rgba(255, 224, 0, 1);
+  -webkit-box-shadow: -3px 1px 279px 16px rgba(255, 224, 0, 1);
+  -moz-box-shadow: -3px 1px 279px 16px rgba(255, 224, 0, 1);
+}
+
+.CardShadow {
+  box-shadow: -3px 1px 279px -10px rgba(255, 224, 0, 0.47);
+  -webkit-box-shadow: -3px 1px 279px -10px rgba(255, 224, 0, 0.47);
+  -moz-box-shadow: -3px 1px 279px -10px rgba(255, 224, 0, 0.47);
+}
+
+.header {
+  background-position-x: 170px;
+  background-repeat: no-repeat;
+  background-image: url(./assets//imig/headerBg.png);
+}
