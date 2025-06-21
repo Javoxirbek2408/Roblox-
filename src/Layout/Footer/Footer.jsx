@@ -1,7 +1,7 @@
 import { Instagram } from '@/assets/icon/Instagram'
 import { Logo } from '@/assets/icon/Logo'
 import { Teligram } from '@/assets/icon/Teligram'
-import { Twitter } from '@/assets/icon/twitter'
+import { Twitter, Twitterr } from '@/assets/icon/twitter'
 import { Youtube } from '@/assets/icon/Youtube'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
@@ -20,7 +20,7 @@ export const Footer = () => {
             <Teligram />
             <Youtube />
             <Instagram />
-            <Twitter />
+            <Twitterr />
           </div>
           <div>
           </div>
