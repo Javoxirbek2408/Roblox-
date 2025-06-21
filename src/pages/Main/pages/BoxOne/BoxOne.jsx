@@ -2,8 +2,8 @@ import React from "react";
 
 export const BoxOne = () => {
   return (
-    <div className="text-black  bg-white mt-8 lg:w-full lg:h-[456px] lg:p-[80px]">
-      <p className="p-3  font-normal  text-[17px] leading-[120%] lg:font-['Involve']  lg:font-normal lg:text-[24px] lg:leading-[160%] lg:tracking-[0%] ">
+    <div className="text-black relative z-10  bg-white mt-8 lg:w-full lg:h-[496px] lg:p-[80px]">
+      <p className="p-3 containerr   font-normal  text-[17px] leading-[120%] lg:font-['Involve']  lg:font-normal lg:text-[24px] lg:leading-[160%] lg:tracking-[0%] ">
         <span className=" font-bold text-[17px] leading-[100%] lg:font-['Involve'] lg:font-bold lg:text-[24px] lg:leading-[10%] lg:tracking-[0%] ">
           JustRobotics
         </span>{" "}

@@ -145,31 +145,82 @@ body {
 
 }
 
+
+
+
+.header {
+  box-shadow: -3px 24px 47px 7px rgba(154, 137, 25, 0.75);
+  -webkit-box-shadow: -3px 24px 47px 7px rgba(154, 137, 25, 0.75);
+  -moz-box-shadow: -3px 24px 47px 7px rgba(154, 137, 25, 0.75);
+}
+
+
+
+
 .swiper-slide {
-  /* width: 285px; */
+  width: 285px !important;
 }
 
-.swiper {
-  height: auto;
-  margin-bottom: 24px;
 
+
+.sliderd {
+  width: 220px !important;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.swiper-wrapper {
-  height: auto;
-  height: auto;
+.navbr {
   display: flex;
-  justify-content: space-between;
-  gap: 100px;
+
+}
+
+
+
+.main {
+  background-position-x: 70px;
+  background-repeat: no-repeat;
+  background-image: url(./assets/imig/background.png);
 }
 
 @media (min-width: 1024px) {
-  .swiper {
+
+  .slid-swip .swiper-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    /* kerakli bo‘lsa */
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
   }
+
+  .containerr {
+    width: 1233px !important;
+    margin: 0 auto !important;
+  }
+
+  .swiper {
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 54px;
+
+  }
+
+  .slid-swip {
+    width: 100% !important;
+  }
+}
+
+.swiper {
+  width: 100% !important;
+  height: auto;
+  margin-bottom: 54px;
+
+}
+
+.slid-swip {
+  width: 100% !important;
+}
+
+
+.swiperScrol {
+  overflow: auto;
 }
 
 .btnShadow {
@@ -187,5 +238,5 @@ body {
 .header {
   background-position-x: 170px;
   background-repeat: no-repeat;
-  background-image: url(./assets//imig/headerBg.png);
+  background-image: url(./assets//imig/bghead.png);
 }

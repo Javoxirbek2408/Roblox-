@@ -6,7 +6,7 @@ import { BoxFour } from './pages/BoxFour'
 
 export const Main = () => {
   return (
-    <div>
+    <div className='main  ' >
       <BoxOne />
       <BoxTwo />
       <BoxThere />
