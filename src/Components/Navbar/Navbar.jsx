@@ -17,7 +17,7 @@ export const Navbar = () => {
     return (
         <div className=" flex navbr  lg:h-[157px] justify-between items-center w-[430px] p-2 border-b-10 border-t-10 border-yellow-300 px-4  text-white lg:w-[100%] lg:justify-between lg:px-8 lg:gap-4 ">
             <div className="w-[100px] cursor-pointer lg:ml-20  h-[75px] lg:h-[100px] lg:w-[100px] rounded-[50%] bg-yellow-300 flex justify-center items-center">
-                <NavLink tabIndex>
+                <NavLink >
                     <Logo />
                 </NavLink>
             </div>
